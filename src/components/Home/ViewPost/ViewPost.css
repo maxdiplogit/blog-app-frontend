@@ -1,0 +1,211 @@
+.view-post {
+    width: 100%;
+    height: 100%;
+    background-color: #f1ecff;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-post-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.update-post {
+    padding: 50px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #a590ff;
+    border-radius: 15px;
+}
+
+.update-post-title-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-post-title-input input {
+    width: 50%;
+    border: none;
+    background-color: #d4c7ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.update-post-title-input input:focus {
+    outline: none;
+    background-color: white;
+}
+
+.update-post-title-input label {
+    color: white;
+}
+
+.update-post-title-input label:hover {
+    cursor: pointer;
+}
+
+.update-post-content {
+    width: 100%;
+    min-height: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cancel-update-div {
+    background-color: white;
+    color: rgb(255, 85, 0);
+    padding: 10px;
+    border: 1px solid rgb(255, 85, 0);
+    border-radius: 8px;
+}
+
+.cancel-update-div:hover {
+    cursor: pointer;
+    background-color: rgb(255, 85, 0);
+    color: white;
+}
+
+.make-changes-button {
+    background-color: white;
+    color: rgb(57, 189, 0);
+    margin: 0;
+    padding: 12px;
+    border: 1px solid rgb(57, 189, 0);
+    border-radius: 8px;
+}
+
+.make-changes-button:hover {
+    cursor: pointer;
+    background-color: rgb(57, 189, 0);
+    color: white;
+}
+
+.action-buttons {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.update-div {
+    background-color: white;
+    color: rgb(255, 179, 0);
+    padding: 10px;
+    border: 1px solid rgb(255, 179, 0);
+    border-radius: 8px;
+}
+
+.update-div:hover {
+    cursor: pointer;
+    background-color: rgb(255, 179, 0);
+    color: white;
+}
+
+.delete-div {
+    background-color: white;
+    color: rgb(255, 85, 0);
+    padding: 10px;
+    border: 1px solid rgb(255, 85, 0);
+    border-radius: 8px;
+}
+
+.delete-div:hover {
+    cursor: pointer;
+    background-color: rgb(255, 85, 0);
+    color: white;
+}
+
+.view-post-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.view-post-title-header {
+    font-weight: lighter;
+    color: #7f6dff;
+}
+
+.view-post-content {
+    width: 100%;
+    height: 70%;
+}
+
+.view-post-content-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.markdown-class {
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(162, 162, 162);
+}
+
+.markdown-class h1 {
+    color: rgb(65, 65, 65);
+}
+
+.markdown-class h2 {
+    color: black;
+}
+
+.markdown-class h3 {
+    color: black;
+}
+
+.markdown-class h4 {
+    color: black;
+}
+
+.markdown-class h5 {
+    color: black;
+}
+
+.markdown-class h6 {
+    color: black;
+}
+
+.markdown-class a {
+    text-decoration: none;
+    color: #5e3aff;
+}
+
+.markdown-class a:c
+
+.markdown-class p:has(img:only-child) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.markdown-class p img {
+    border-radius: 10px;
+}
