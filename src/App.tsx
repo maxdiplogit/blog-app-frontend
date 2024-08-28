@@ -14,8 +14,6 @@ import './App.css';
 const App = () => {
 	const isLoggedIn = useSelector((state: any) => state.auth.isLoggedIn);
 
-	console.log(process.env.REACT_APP_BASE_URL);
-
 	return (
 		<div className='app'>
 			<Routes>
